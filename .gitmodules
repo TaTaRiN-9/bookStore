@@ -1,0 +1,3 @@
+[submodule "fontend"]
+	path = fontend
+	url = https://github.com/TaTaRiN-9/frontend
