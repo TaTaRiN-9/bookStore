@@ -1,0 +1,17 @@
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\bin\Debug\net6.0\TestWebApi.DataAccess.deps.json
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\bin\Debug\net6.0\TestWebApi.DataAccess.dll
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\bin\Debug\net6.0\TestWebApi.DataAccess.pdb
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\bin\Debug\net6.0\TestWebApi.Core.dll
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\bin\Debug\net6.0\TestWebApi.Core.pdb
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\obj\Debug\net6.0\TestWebApi.DataAccess.csproj.AssemblyReference.cache
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\obj\Debug\net6.0\TestWebApi.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\obj\Debug\net6.0\TestWebApi.DataAccess.AssemblyInfoInputs.cache
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\obj\Debug\net6.0\TestWebApi.DataAccess.AssemblyInfo.cs
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\obj\Debug\net6.0\TestWebApi.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\obj\Debug\net6.0\TestWebApi.DataAccess.csproj.CopyComplete
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\obj\Debug\net6.0\TestWebApi.DataAccess.dll
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\obj\Debug\net6.0\refint\TestWebApi.DataAccess.dll
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\obj\Debug\net6.0\TestWebApi.DataAccess.pdb
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\obj\Debug\net6.0\ref\TestWebApi.DataAccess.dll
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\bin\Debug\net6.0\TestWebApi.DataAccess.runtimeconfig.json
+C:\Users\1\source\repos\BookStore\TestWebApi.DataAccess\obj\Debug\net6.0\TestWebApi.DataAccess.genruntimeconfig.cache

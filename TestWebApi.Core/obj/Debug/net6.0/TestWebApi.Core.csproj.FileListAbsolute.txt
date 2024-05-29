@@ -1,0 +1,12 @@
+C:\Users\1\source\repos\BookStore\TestWebApi.Core\bin\Debug\net6.0\TestWebApi.Core.deps.json
+C:\Users\1\source\repos\BookStore\TestWebApi.Core\bin\Debug\net6.0\TestWebApi.Core.dll
+C:\Users\1\source\repos\BookStore\TestWebApi.Core\bin\Debug\net6.0\TestWebApi.Core.pdb
+C:\Users\1\source\repos\BookStore\TestWebApi.Core\obj\Debug\net6.0\TestWebApi.Core.csproj.AssemblyReference.cache
+C:\Users\1\source\repos\BookStore\TestWebApi.Core\obj\Debug\net6.0\TestWebApi.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\source\repos\BookStore\TestWebApi.Core\obj\Debug\net6.0\TestWebApi.Core.AssemblyInfoInputs.cache
+C:\Users\1\source\repos\BookStore\TestWebApi.Core\obj\Debug\net6.0\TestWebApi.Core.AssemblyInfo.cs
+C:\Users\1\source\repos\BookStore\TestWebApi.Core\obj\Debug\net6.0\TestWebApi.Core.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\BookStore\TestWebApi.Core\obj\Debug\net6.0\TestWebApi.Core.dll
+C:\Users\1\source\repos\BookStore\TestWebApi.Core\obj\Debug\net6.0\refint\TestWebApi.Core.dll
+C:\Users\1\source\repos\BookStore\TestWebApi.Core\obj\Debug\net6.0\TestWebApi.Core.pdb
+C:\Users\1\source\repos\BookStore\TestWebApi.Core\obj\Debug\net6.0\ref\TestWebApi.Core.dll

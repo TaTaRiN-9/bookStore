@@ -1,0 +1,15 @@
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\bin\Debug\net6.0\TestWebApi.Application.deps.json
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\bin\Debug\net6.0\TestWebApi.Application.dll
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\bin\Debug\net6.0\TestWebApi.Application.pdb
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\bin\Debug\net6.0\TestWebApi.Core.dll
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\bin\Debug\net6.0\TestWebApi.Core.pdb
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\obj\Debug\net6.0\TestWebApi.Application.csproj.AssemblyReference.cache
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\obj\Debug\net6.0\TestWebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\obj\Debug\net6.0\TestWebApi.Application.AssemblyInfoInputs.cache
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\obj\Debug\net6.0\TestWebApi.Application.AssemblyInfo.cs
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\obj\Debug\net6.0\TestWebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\obj\Debug\net6.0\TestWebApi.Application.csproj.CopyComplete
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\obj\Debug\net6.0\TestWebApi.Application.dll
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\obj\Debug\net6.0\refint\TestWebApi.Application.dll
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\obj\Debug\net6.0\TestWebApi.Application.pdb
+C:\Users\1\source\repos\BookStore\TestWebApi.Application\obj\Debug\net6.0\ref\TestWebApi.Application.dll
