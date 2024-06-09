@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using TestWebApi.Application.Services;
 using TestWebApi.DataAccess;
 
 namespace TestWebApi.API.Controllers
@@ -9,17 +10,17 @@ namespace TestWebApi.API.Controllers
     [ApiController]
     public class GenresController : ControllerBase
     {
-        private readonly TestWebApiDbContext _context;
+        private readonly IGenresServices _genresServices;
 
-        public GenresController(TestWebApiDbContext context)
+        public GenresController(IGenresServices genresServices)
         {
-            _context = context; 
+            _genresServices = genresServices;
         }
 
         [HttpGet("get")]
         public async Task<IActionResult> GetGenres()
         {
-            return Ok(await _context.genres.ToListAsync());
+            return Ok(await _genresServices.GetAllGenres());
         }
     }
 }

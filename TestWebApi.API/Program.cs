@@ -58,6 +58,9 @@ builder.Services.AddScoped<IBookRepository, BookRepository>();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
+builder.Services.AddScoped<IGenresServices, GenresServices>();
+builder.Services.AddScoped<IGenreRepository, GenreRepository>();
+
 builder.Services.AddScoped<IJwtServices, JwtServices>();
 
 var app = builder.Build();
