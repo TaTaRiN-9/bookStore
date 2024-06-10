@@ -1,8 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
 using TestWebApi.Application.Services;
-using TestWebApi.DataAccess;
 
 namespace TestWebApi.API.Controllers
 {

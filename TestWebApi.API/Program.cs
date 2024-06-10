@@ -5,7 +5,6 @@ using TestWebApi.Application.Services;
 using TestWebApi.Core.Abstractions;
 using TestWebApi.Core.Auth;
 using TestWebApi.DataAccess;
-using TestWebApi.DataAccess.Entities;
 using TestWebApi.DataAccess.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -57,6 +56,7 @@ builder.Services.AddScoped<IBooksServices, BooksServices>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IAuthServices, AuthServices>();
 
 builder.Services.AddScoped<IGenresServices, GenresServices>();
 builder.Services.AddScoped<IGenreRepository, GenreRepository>();

@@ -1,12 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using TestWebApi.API.Contracts;
-using TestWebApi.Core.Abstractions;
 using TestWebApi.Core.Models;
 using TestWebApi.Application.Services;
-using BCrypt.Net;
-using Microsoft.AspNetCore.Authorization;
-using System.Security.Claims;
 
 namespace TestWebApi.API.Controllers
 {
@@ -14,12 +9,12 @@ namespace TestWebApi.API.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        private readonly IUserRepository _userRepository;
+        private readonly IAuthServices _authServices;
         private readonly IJwtServices _jwtServices;
-        public AuthController(IUserRepository userRepository, IJwtServices jwtServices)
+        public AuthController(IJwtServices jwtServices, IAuthServices authServices)
         {
-            _userRepository = userRepository;
             _jwtServices = jwtServices;
+            _authServices = authServices;
         }
 
         [HttpPost("register")]
@@ -32,11 +27,11 @@ namespace TestWebApi.API.Controllers
                 BCrypt.Net.BCrypt.HashPassword(usersRegister.Password)
             );
 
-            var checkUser = await _userRepository.GetByEmail(usersRegister.Email);
+            var checkUser = await _authServices.GetUserByEmail(user.Email);
 
             if (checkUser != null) return BadRequest("Пользователь с таким email уже существует!");
 
-            var userResult = await _userRepository.Create(user);
+            var userResult = await _authServices.Add(user);
 
             string jwtToken = _jwtServices.Generate(userResult);
 
@@ -52,11 +47,11 @@ namespace TestWebApi.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] UsersLogin usersLogin)
         {
-            User? userDB = await _userRepository.GetByEmail(usersLogin.Email);
+            User? userDB = await _authServices.GetUserByEmail(usersLogin.Email);
 
             if (userDB == null) return BadRequest(new { message = "Неверный логин или пароль" });
 
-            if (!BCrypt.Net.BCrypt.Verify(usersLogin.Password, userDB.Password))
+            if (!_authServices.CheckPassword(usersLogin.Password, userDB.Password))
                 return BadRequest(new { message = "Неверный логин или пароль" });
 
             string jwtToken = _jwtServices.Generate(userDB);

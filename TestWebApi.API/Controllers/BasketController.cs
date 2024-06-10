@@ -1,7 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Text.Json.Serialization;
 using TestWebApi.API.Contracts;
 using TestWebApi.DataAccess;
 using TestWebApi.DataAccess.Entities;
